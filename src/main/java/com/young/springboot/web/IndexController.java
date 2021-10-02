@@ -8,4 +8,10 @@ public class IndexController {
     public String index() {
         return "index";
     }
+
+    @GetMapping("/posts/save")
+    public String postsSave() {
+        System.out.println("POSTS SAVE API 호출");
+        return "posts-save";
+    }
 }
