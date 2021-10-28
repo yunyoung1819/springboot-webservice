@@ -1,6 +1,7 @@
 package com.young.springboot.config.auth;
 
 import com.young.springboot.config.auth.dto.OAuthAttributes;
+import com.young.springboot.config.auth.dto.SessionUser;
 import com.young.springboot.domain.user.User;
 import com.young.springboot.domain.user.UserRepository;
 import lombok.RequiredArgsConstructor;
